@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css2?family=Marck+Script&display=swap);
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.wrapper{
+  margin-top: 1rem;
+}
+header h1{
+  font-family: 'Marck Script', handwriting;
+}
+header h1 a{
+  text-decoration: none;
+  color: #444;
+  font-size: 45px;
+  font-weight: lighter;
+}
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+ul li a{
+  text-decoration: none;
+  color: #6e6e6e;
+  padding: 5px 14px;
+  transition: .2s;
+}
+ul a:hover{
+  color: #161616;
+}
+ul li:first-child a{
+  color: #161616;
+}
+
+.container{
+  width: 900px;
+  margin: 3rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+img{
+  width: 100%;
+}
+.first{
+  height: 300px !important;
+}
+.imgContainer{
+  width: 33%;
+  padding:6px;
+}
+.four{
+  position: relative;
+  bottom: 150px;
+}
+.seven{
+  position: relative;
+  top: -153px;
+}
+.eight{
+position: relative;
+top: -153px;
+right: -296px;
+}
+.nine{
+  position: relative;
+  left: -297px;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.footer p{
+  font-size: 14px;
+  color: #444;
+}
+.footer p a{
+  color: #2f2f2f;
+  font-size: 14px;
+}
+
+.icon{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: .70rem;
+  margin-bottom: 3rem;
+}
+.icon img{
+  margin: 0 4px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+img{
+  cursor: 4;
+}
